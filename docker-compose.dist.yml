@@ -11,6 +11,7 @@
 
 services:
   navaia-forge-api:
+    platform: linux/arm64
     image: ghcr.io/navaiasolutions/navaia-forge-backend:${NAVAIA_BACKEND_VERSION:-latest}
     container_name: navaia-forge-api
     pull_policy: always
